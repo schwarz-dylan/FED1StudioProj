@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Classes.html" />
     <Content Include="Contact.html" />
+    <Content Include="Styles\CSS.css" />
     <Content Include="Teams.html" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
