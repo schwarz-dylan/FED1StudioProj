@@ -1,2 +1,39 @@
 ﻿body {
 }
+
+main {
+    background-color: lightgray;
+}
+h1 {
+    color: red;
+    font-size: 24px;
+}
+nav a {
+    font-weight: bold;
+    color: red;
+}
+
+    /*Pseudo-selectors: selector :hover - will target styling when that element is hovered over*/
+    nav a:hover, nav a:active, nav a:focus {
+        text-decoration: none;
+    }
+
+nav ul {
+    background-color: gold;
+    padding: 0;
+    border-top: 2px dotted darkgray;
+    border-bottom: 2px dotted darkgray;
+}
+
+nav li:hover {
+    background-color: black;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+    nav ul li a {
+        padding: .4em 1em;
+        display: block;
