@@ -1,17 +1,71 @@
-﻿body {
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+
+body {
 }
 
 main {
-    background-color: lightgray;
+    background-color: gold;
 }
-h1 {
+header {
+    
+}
+
+#headerOverlayleft {
+    background-image: url('../images/arrow pic.jpg');
+    background-repeat: no-repeat;
+    background-size: 90px;
+    background-position: 3% center;
+    padding: 2em;
+}
+#headerOverlayright {
+    background-image: url('../images/arrow pic.jpg');
+    background-repeat: no-repeat;
+    background-size: 90px;
+    background-position: 97% center;
+    padding: 2em;
+}
+    h1, h2, h3 {
     color: red;
-    font-size: 24px;
+    font-size: 30px;
+    font-family: 'Russo One', bold;
 }
+ul li {
+    font-family: 'Russo One', monospace;
+    text-align: center;
+    
+    
+}
+h3 {
+    color: red;
+}
+
+section p {
+    text-align: center;
+    font-family: 'Russo One', monospace;
+}
+
+aside p {
+    font-family: 'Russo One', monospace;
+    text-align: center;
+}
+
 nav a {
     font-weight: bold;
     color: red;
+
 }
+nav {
+    margin-top:24px;
+}
+
+article p {
+    text-align: center;
+    font-family: 'Russo One', monospace;
+}
+
 
     /*Pseudo-selectors: selector :hover - will target styling when that element is hovered over*/
     nav a:hover, nav a:active, nav a:focus {
@@ -21,8 +75,8 @@ nav a {
 nav ul {
     background-color: gold;
     padding: 0;
-    border-top: 2px dotted darkgray;
-    border-bottom: 2px dotted darkgray;
+    border-top: 2px darkgray;
+    border-bottom: 2px darkgray;
 }
 
 nav li:hover {
@@ -37,3 +91,97 @@ nav ul li {
     nav ul li a {
         padding: .4em 1em;
         display: block;
+    }
+body {
+    background: url('/images/football background.jpg') no-repeat center center fixed;
+    /* fixed keeps the background fixed in the same position*/
+    background-size: cover;
+    margin: 0;
+}
+
+footer {
+    color: white;
+}
+
+header p {
+    color: red;
+}
+
+h1, h2, h3, footer {
+    text-align: center;
+}
+
+.galleryItem, #galleryItem {
+    text-align: center;
+}
+
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table {
+    /*width: 100%;*/
+    margin:auto;
+    height:15rem;
+    color:red;
+    margin-top:170px;
+    background-color: gold;
+    font-family:'Russo One', monospace;
+    
+}
+
+th, td {
+    text-align:center;
+    padding: 1.5rem;
+}
+
+footer {    
+    text-align:center;
+    width:100%;
+}
+
+main.contactUsMain {
+    margin-top:170px;
+    margin-bottom:80px;
+}
+
+h3.cardHeader {
+    font-size:1rem;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content:space-around;
+    margin-top:6.5rem;
+    margin-bottom:2.5rem;
+    padding:1rem 0 1rem 0;
+
+}
+.card {
+    display:flex;
+    flex-direction:column;
+    border:1px solid black;
+    
+}
+.cardText {
+    font-family:'Russo One', monospace;
+    padding: 0 1rem 0 1rem;
+    text-align:center;
+}
+
+.cardImage {
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
