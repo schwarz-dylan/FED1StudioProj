@@ -7,7 +7,7 @@
     <meta name="author" content="Dylan Schwarz" />
 
     <link href="Styles/custom.css" rel="stylesheet" />
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Styles/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
     <style>
         h1 {
             color: red;
@@ -26,10 +26,10 @@
     </style>
 </head>
 <body>
-    
+
     <header>
         <h1><span id="headerOverlayleft"></span>KC Football Academy<span id="headerOverlayright"></span></h1>
-        
+
     </header>
     <nav>
         <ul>
@@ -48,53 +48,53 @@
         </ul>
 
     </nav>
-<!--    <main>
-        <aside>
-            <h2>Classes By Position Groups:</h2>
-            <p>To be the best, you have to train like the best.</p>
-        </aside>
-        <section>
-
-            
-
-            <h2>QB's, RB's & WR's</h2>
-
-            <p> Dylan Schwarz is a former Semi-Professional QB and has experiance playing at the WR position as well. He is the coach for these position groups. Please see his contact info on the "Contact Us" page.</p>
-
-
-            <h2>Offensive and Deffensive Line</h2>
-
-            <p> Spicy jalapeno bacon ipsum dolor amet capicola irure dolore t-bone short loin burgdoggen veniam. Ham irure tempor swine, ea minim pork belly anim. Dolore tenderloin pig prosciutto, nostrud t-bone short ribs nulla shoulder boudin shank fugiat do jerky qui. Dolore doner chuck in ut boudin id eiusmod. Capicola nulla kevin jerky, enim ut buffalo biltong jowl ut sunt beef. Proident swine ut fugiat chicken voluptate.</p>
-
-            <h2>Defensive Skilled Positions</h2>
-            
-            <p>Salami porchetta strip steak ex id turkey dolore flank sausage pork loin ut minim rump picanha pork. Quis pork belly chuck reprehenderit excepteur pancetta short ribs eiusmod bacon meatloaf chicken burgdoggen incididunt venison. In aute short ribs elit pig sausage cow pancetta alcatra. Andouille ham eiusmod minim, exercitation shank dolore do rump chislic. Esse ullamco officia drumstick eu, filet mignon in capicola anim shankle sunt.</p>
-
-            <h2>Strength and Conditioning</h2>
-
-            <p>
-                Salami porchetta strip steak ex id turkey dolore flank sausage pork loin ut minim rump picanha pork. Quis pork belly chuck reprehenderit excepteur pancetta short ribs eiusmod bacon meatloaf chicken burgdoggen incididunt venison. In aute short ribs elit pig sausage cow pancetta alcatra. Andouille ham eiusmod minim, exercitation shank dolore do rump chislic. Esse ullamco officia drumstick eu, filet mignon in capicola anim shankle sunt
-
-            </p>
+    <!--    <main>
+            <aside>
+                <h2>Classes By Position Groups:</h2>
+                <p>To be the best, you have to train like the best.</p>
+            </aside>
+            <section>
 
 
 
-        </section>
-    </main>-->
+                <h2>QB's, RB's & WR's</h2>
 
-    <table>
+                <p> Dylan Schwarz is a former Semi-Professional QB and has experiance playing at the WR position as well. He is the coach for these position groups. Please see his contact info on the "Contact Us" page.</p>
+
+
+                <h2>Offensive and Deffensive Line</h2>
+
+                <p> Spicy jalapeno bacon ipsum dolor amet capicola irure dolore t-bone short loin burgdoggen veniam. Ham irure tempor swine, ea minim pork belly anim. Dolore tenderloin pig prosciutto, nostrud t-bone short ribs nulla shoulder boudin shank fugiat do jerky qui. Dolore doner chuck in ut boudin id eiusmod. Capicola nulla kevin jerky, enim ut buffalo biltong jowl ut sunt beef. Proident swine ut fugiat chicken voluptate.</p>
+
+                <h2>Defensive Skilled Positions</h2>
+
+                <p>Salami porchetta strip steak ex id turkey dolore flank sausage pork loin ut minim rump picanha pork. Quis pork belly chuck reprehenderit excepteur pancetta short ribs eiusmod bacon meatloaf chicken burgdoggen incididunt venison. In aute short ribs elit pig sausage cow pancetta alcatra. Andouille ham eiusmod minim, exercitation shank dolore do rump chislic. Esse ullamco officia drumstick eu, filet mignon in capicola anim shankle sunt.</p>
+
+                <h2>Strength and Conditioning</h2>
+
+                <p>
+                    Salami porchetta strip steak ex id turkey dolore flank sausage pork loin ut minim rump picanha pork. Quis pork belly chuck reprehenderit excepteur pancetta short ribs eiusmod bacon meatloaf chicken burgdoggen incididunt venison. In aute short ribs elit pig sausage cow pancetta alcatra. Andouille ham eiusmod minim, exercitation shank dolore do rump chislic. Esse ullamco officia drumstick eu, filet mignon in capicola anim shankle sunt
+
+                </p>
+
+
+
+            </section>
+        </main>-->
+
+    <table id="positionGroupTable">
         <thead>
-           <tr>
-               <th colspan="6">Position Group Class Schedule:</th>
-           </tr> 
-           <tr>
-               <th>Position Groups:</th>
-               <th>Monday</th>
-               <th>Tuesday</th>
-               <th>Wednesday</th>
-               <th>Thursday</th>
-               <th>Friday</th>
-           </tr>
+            <tr>
+                <th colspan="6">Position Group Class Schedule:</th>
+            </tr>
+            <tr>
+                <th>Position Groups:</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
         </thead>
         <tbody>
             <tr>
@@ -139,7 +139,36 @@
         </p>
         &copy;Copyright 2020 Dylan Schwarz
     </footer>
+
+
+    <!-- Side Nav - Button -->
+    <div id="nav-btn" class="button" onclick="openSideNav()">
+        <span class="vertical-text">NAVBAR</span>
+    </div>
+
+    <!--Side Nav - Container for the links -->
+    <div class="sidenav" id="side-nav">
+        <a href="javascript:void(0)" class="close-btn" onclick="closeSideNav()">
+            &times;
+        </a>
+        <a href="#positionGroupTable">QB's, RB,s & Wr's</a>
+        <a href="#positionGroupTable">Offensive and Defensive Linemen</a>
+        <a href="#positionGroupTable">Defensive Specialties</a>
+        <a href="#positionGroupTable">Strength Training</a>
+    </div>
+
     
-        
+    <script type='text/javascript'>
+        function openSideNav() {
+            document.getElementById('nav-btn').style.display = "none";
+            document.getElementById('side-nav').style.width = "250px";
+        }
+
+        function closeSideNav() {
+            document.getElementById('nav-btn').style.display = "block";
+            document.getElementById('side-nav').style.width = "0";
+        }
+    </script>
+
 </body>
 </html>
