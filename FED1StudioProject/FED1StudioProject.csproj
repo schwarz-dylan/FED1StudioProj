@@ -72,10 +72,16 @@
     <Content Include="css_options\icons\icons8-double-right-24.png" />
     <Content Include="images\Andy Reid pic.jfif" />
     <Content Include="images\arrow pic.jpg" />
+    <Content Include="images\defense pic.jfif" />
+    <Content Include="images\Ellite 11 pic.jfif" />
     <Content Include="images\football background.jpg" />
     <Content Include="images\new arowhead photo.png" />
+    <Content Include="images\offensive deffesnsive line drill pic.jfif" />
     <Content Include="images\Pat Mahomes pic.jfif" />
+    <Content Include="images\strength training.jfif" />
     <Content Include="images\Tyrann Mathieu pic.jfif" />
+    <Content Include="javaScript\bootstrap.js" />
+    <Content Include="javaScript\lightbox.js" />
     <Content Include="Styles\custom.css" />
     <Content Include="Styles\font-awesome-4.7.0\font-awesome-4.7.0\css\font-awesome.css" />
     <Content Include="Styles\font-awesome-4.7.0\font-awesome-4.7.0\css\font-awesome.min.css" />

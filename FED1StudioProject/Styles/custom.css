@@ -14,14 +14,14 @@ header {
 }
 
 #headerOverlayleft {
-    background-image: url('../images/arrow pic.jpg');
+    background-image: url('../images/new arowhead photo.png');
     background-repeat: no-repeat;
     background-size: 90px;
     background-position: 3% center;
     padding: 2em;
 }
 #headerOverlayright {
-    background-image: url('../images/arrow pic.jpg');
+    background-image: url('../images/new arowhead photo.png');
     background-repeat: no-repeat;
     background-size: 90px;
     background-position: 97% center;
@@ -230,6 +230,36 @@ h3.cardHeader {
 }
 
 
+.container {
+    margin:0 auto;
+}
+
+
+/*******Lightbox******/
+.thumb {
+    cursor: pointer;
+}
+
+#lightbox-container {
+    position: fixed; /*Fixed position means you are moving the element in relation to the entire viewport*/
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    text-align: center;
+    padding-top: 65px;
+    display: none;
+}
+
+    #lightbox-container p {
+        color: #fff;
+    }
+
+#lightbox-content img {
+    border: 10px solid gray;
+    margin: auto;
+}
 
 
 
