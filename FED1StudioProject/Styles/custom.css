@@ -7,7 +7,7 @@ body {
 }
 
 main {
-    background-color: gold;
+    background-color: rgba(0, 0, 0, .9);
 }
 header {
     
@@ -21,7 +21,7 @@ header {
     padding: 2em;
 }
 #headerOverlayright {
-    background-image: url('../images/new arowhead photo.png');
+    background-image: url('../images/left arowhead photo - Copy.png');
     background-repeat: no-repeat;
     background-size: 90px;
     background-position: 97% center;

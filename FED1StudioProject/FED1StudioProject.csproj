@@ -74,7 +74,15 @@
     <Content Include="images\arrow pic.jpg" />
     <Content Include="images\defense pic.jfif" />
     <Content Include="images\Ellite 11 pic.jfif" />
+    <Content Include="images\favicon icon.png" />
+    <Content Include="images\favicon_io %283%29\android-chrome-192x192.png" />
+    <Content Include="images\favicon_io %283%29\android-chrome-512x512.png" />
+    <Content Include="images\favicon_io %283%29\apple-touch-icon.png" />
+    <Content Include="images\favicon_io %283%29\favicon-16x16.png" />
+    <Content Include="images\favicon_io %283%29\favicon-32x32.png" />
+    <Content Include="images\favicon_io %283%29\favicon.ico" />
     <Content Include="images\football background.jpg" />
+    <Content Include="images\left arowhead photo - Copy.png" />
     <Content Include="images\new arowhead photo.png" />
     <Content Include="images\offensive deffesnsive line drill pic.jfif" />
     <Content Include="images\Pat Mahomes pic.jfif" />
@@ -95,6 +103,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\favicon_io %283%29\site.webmanifest" />
     <None Include="packages.config" />
     <Content Include="Styles\font-awesome-4.7.0\font-awesome-4.7.0\fonts\fontawesome-webfont.eot" />
     <Content Include="Styles\font-awesome-4.7.0\font-awesome-4.7.0\fonts\fontawesome-webfont.ttf" />
