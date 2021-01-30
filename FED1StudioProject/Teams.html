@@ -5,6 +5,7 @@
     <title>KC Football Academy</title>
     <meta name="description" content="This is a site description." />
     <meta name="author" content="Dylan Schwarz" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="Styles/custom.css" rel="stylesheet" />
     <link rel="stylesheet" href="Styles/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
@@ -16,9 +17,7 @@
 
     <style>
 
-        ul {
-            list-style-image: url('css_options/icons/icons8-double-right-24.png');
-        }
+       
 
         h1 {
             color: red;
@@ -30,11 +29,61 @@
             text-decoration: underline;
         }
 
-        #asideHeader {
-            background-color: darkblue;
+        
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+            transition: 0.3s;
+            width: 82%;
+            border-radius: 5px; /* 5px rounded corners */
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-bottom: 10px;
+        }
+
+            .card:hover {
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
+            }
+
+        .container {
+            padding: 2px 8px;
+            width: 100%;
+        }
+
+        /* Add rounded corners to the top left and the top right corner of the image */
+        img {
+            border-radius: 5px 5px 0 0;
+        }
+
+        aside {
+            height: 100%;
+            float: right;
+            background-color: rgba(0, 0, 0, .5);
+
+        }
+
+        #asideHeader{
+            background-color: red;
+            color: gold;
+
+        }
+
+       aside ul li a {
             color: gold;
         }
+
+      aside  a:hover, a:active, a:focus {
+            color: gold;
+            text-decoration: underline;
+            background-color: red;
+        }
+
+      h1{
+          margin-bottom:0px;
+      }
     </style>
+    
 </head>
 <body>
     
@@ -59,73 +108,133 @@
 
     </nav>
     <main>
-        <div class="flexContainer">
-            <div class="card">
-                <a href="../images/Pat Mahomes pic.jfif" target="_blank">
-                    <img class="cardImage" src="../images/Pat Mahomes pic.jfif" alt="Picture of Patrick Mahomes" title="Code" width="300" height="168" />
-                </a>
-                <h3 class="cardHeader">Patrick Mahomes | NFL Super Star</h3>
-                <p class="cardText">Kansas City Chiefs QB from 2017-Present</p>
-                <p class="cardText">NFL MVP in 2018 and 2020</p>
-                <p class="cardText">Superbowl MVP/Champion 2020</p>
-            </div>
-            <div class="card">
-                <a href="images/Tyrann Mathieu pic.jfif" target="_blank">
-                    <img class="cardImage" src="../images/Tyrann Mathieu pic.jfif" alt="Picture of Tyrann Mathieu" title="Code" width="300" height="168" />
-                </a>
-                <h3 class="cardHeader">Tyrann Mathieu</h3>
-                <p class="cardText">4X NFL All-Pro </p>
-                <p class="cardText">2011 Heisman Trophy Finalist</p>
-                <p class="cardText">Superbowl Champion 2020</p>
-                <p class="cardText">NFL's 2010's All Decade Team</p>
-            </div>
-            <div class="card">
-                <a href="images/Andy Reid pic.jfif" target="_blank">
-                    <img class="cardImage" src="../images/Andy Reid pic.jfif" alt="Picture of Andy Reid" title="Code" width="300" height="168" />
-                </a>
-                <h3 class="cardHeader">Andy Reid | NFL Super Coach</h3>
-                <p class="cardText">Superbowl Champion Winning Coach</p>
-                <p class="cardText">Over 200 Wins in the NF</p>
-                <p class="cardText">Current Kansas City Chiefs Head Coach</p>
-            </div>
-        </div>
-        
-        <!--<h3>Patrick Mahomes | NFL Super Star</h3>
-        <div class="galleryItem" id="galleryItem">
-            <a href="../images/Pat Mahomes pic.jfif" target="_blank">
-                <img src="../images/Pat Mahomes pic.jfif" alt="Picture of Patrick Mahomes" title="Code" width="300" height="168" />
-            </a>
-        </div>
-        <ul class="achievementList">
-            <li>Kansas City Chiefs QB from 2017-Present</li>
-            <li>NFL MVP in 2018 and 2020</li>
-            <li>Superbowl MVP/Champion 2020</li>
-        </ul>-->
-        <!--<h3>Tyrann Mathieu | NFL Super Star</h3>
-        <div class="galleryItem" id="galleryItem">
-            <a href="images/Tyrann Mathieu pic.jfif" target="_blank">
-                <img src="../images/Tyrann Mathieu pic.jfif" alt="Picture of Tyrann Mathieu" title="Code" width="300" height="168" />
-            </a>
-        </div>
-        <ul class="achievementList">
-            <li>Superbowl Champion</li>
-            <li>4X NFL Pro Bowler</li>
-            <li>2011 Heisman Trophy Finalist</li>
-            <li>NFL's 2010's All Decade Team</li>
-        </ul>-->
-        <!--<h3>Andy Reid | NFL Head Coach for over 20 years</h3>
-        <div class="galleryItem" id="galleryItem">
-                <a href="images/Andy Reid pic.jfif" target="_blank">
-                <img src="../images/Andy Reid pic.jfif" alt="Picture of Andy Reid" title="Code" width="300" height="168" />
-            </a>
-        </div>
-        <ul class="achievementList">
-            <li>Superbowl Champion Winning Coach</li>
-            <li>Over 200 Wins in the NFL</li>
-            <li>Current Kansas City Chiefs Head Coach</li>
-        </ul>-->
+
+        <aside id="htmlRightColumn">
+            <h2>Departments</h2>
+            <ul class="asideList">
+                <li id="department">
+                    <a href="#nflAmbassadors">NFL Ambassadors</a>
+                </li>
+                <li id="department">
+                    <a href="#offense">Offensive Coordinators</a>
+                </li>
+                <li id="department">
+                    <a href="#defense">Defensive Coordinators</a>
+                </li>
+                <li id="department">
+                    <a href="#specialTeams">Special Teams Coordinators</a>
+                </li>
+
+            </ul>
+            
+            
+        </aside>
 
 
+        <section class="mainWrapper" id="leftColumn">
+            <h1>NFL Ambassadors</h1>
+            <div class="flexContainer">
+
+                <div class="card">
+                    <a href="../images/Pat Mahomes pic.jfif" target="_blank">
+                        <img class="cardImage" src="../images/Pat Mahomes pic.jfif" alt="Picture of Patrick Mahomes" title="Code" width="300" height="168" />
+                    </a>
+                    <h3 class="cardHeader">Patrick Mahomes | NFL Super Star</h3>
+                    <p class="cardText">Kansas City Chiefs QB from 2017-Present</p>
+                    <p class="cardText">NFL MVP in 2018 and 2020</p>
+                    <p class="cardText">Superbowl MVP/Champion 2020</p>
+                </div>
+                <div class="card">
+                    <a href="images/Tyrann Mathieu pic.jfif" target="_blank">
+                        <img class="cardImage" src="../images/Tyrann Mathieu pic.jfif" alt="Picture of Tyrann Mathieu" title="Code" width="300" height="168" />
+                    </a>
+                    <h3 class="cardHeader">Tyrann Mathieu</h3>
+                    <p class="cardText">4X NFL All-Pro </p>
+                    <p class="cardText">2011 Heisman Trophy Finalist</p>
+                    <p class="cardText">Superbowl Champion 2020</p>
+                    <p class="cardText">NFL's 2010's All Decade Team</p>
+                </div>
+                <div class="card">
+                    <a href="images/Andy Reid pic.jfif" target="_blank">
+                        <img class="cardImage" src="../images/Andy Reid pic.jfif" alt="Picture of Andy Reid" title="Code" width="300" height="168" />
+                    </a>
+                    <h3 class="cardHeader">Andy Reid | NFL Super Coach</h3>
+                    <p class="cardText">Superbowl Champion Winning Coach</p>
+                    <p class="cardText">Over 200 Wins in the NF</p>
+                    <p class="cardText">Current Kansas City Chiefs Head Coach</p>
+                </div>
+            </div>
+
+            <div class="flexContainer">
+
+                <div class="card">
+                    <a href="../images/Pat Mahomes pic.jfif" target="_blank">
+                        <img class="cardImage" src="../images/Pat Mahomes pic.jfif" alt="Picture of Patrick Mahomes" title="Code" width="300" height="168" />
+                    </a>
+                    <h3 class="cardHeader">Patrick Mahomes | NFL Super Star</h3>
+                    <p class="cardText">Kansas City Chiefs QB from 2017-Present</p>
+                    <p class="cardText">NFL MVP in 2018 and 2020</p>
+                    <p class="cardText">Superbowl MVP/Champion 2020</p>
+                </div>
+                <div class="card">
+                    <a href="images/Tyrann Mathieu pic.jfif" target="_blank">
+                        <img class="cardImage" src="../images/Tyrann Mathieu pic.jfif" alt="Picture of Tyrann Mathieu" title="Code" width="300" height="168" />
+                    </a>
+                    <h3 class="cardHeader">Tyrann Mathieu</h3>
+                    <p class="cardText">4X NFL All-Pro </p>
+                    <p class="cardText">2011 Heisman Trophy Finalist</p>
+                    <p class="cardText">Superbowl Champion 2020</p>
+                    <p class="cardText">NFL's 2010's All Decade Team</p>
+                </div>
+                <div class="card">
+                    <a href="images/Andy Reid pic.jfif" target="_blank">
+                        <img class="cardImage" src="../images/Andy Reid pic.jfif" alt="Picture of Andy Reid" title="Code" width="300" height="168" />
+                    </a>
+                    <h3 class="cardHeader">Andy Reid | NFL Super Coach</h3>
+                    <p class="cardText">Superbowl Champion Winning Coach</p>
+                    <p class="cardText">Over 200 Wins in the NF</p>
+                    <p class="cardText">Current Kansas City Chiefs Head Coach</p>
+                </div>
+            </div>
+
+
+
+            <!--<h3>Patrick Mahomes | NFL Super Star</h3>
+    <div class="galleryItem" id="galleryItem">
+        <a href="../images/Pat Mahomes pic.jfif" target="_blank">
+            <img src="../images/Pat Mahomes pic.jfif" alt="Picture of Patrick Mahomes" title="Code" width="300" height="168" />
+        </a>
+    </div>
+    <ul class="achievementList">
+        <li>Kansas City Chiefs QB from 2017-Present</li>
+        <li>NFL MVP in 2018 and 2020</li>
+        <li>Superbowl MVP/Champion 2020</li>
+    </ul>-->
+            <!--<h3>Tyrann Mathieu | NFL Super Star</h3>
+    <div class="galleryItem" id="galleryItem">
+        <a href="images/Tyrann Mathieu pic.jfif" target="_blank">
+            <img src="../images/Tyrann Mathieu pic.jfif" alt="Picture of Tyrann Mathieu" title="Code" width="300" height="168" />
+        </a>
+    </div>
+    <ul class="achievementList">
+        <li>Superbowl Champion</li>
+        <li>4X NFL Pro Bowler</li>
+        <li>2011 Heisman Trophy Finalist</li>
+        <li>NFL's 2010's All Decade Team</li>
+    </ul>-->
+            <!--<h3>Andy Reid | NFL Head Coach for over 20 years</h3>
+    <div class="galleryItem" id="galleryItem">
+            <a href="images/Andy Reid pic.jfif" target="_blank">
+            <img src="../images/Andy Reid pic.jfif" alt="Picture of Andy Reid" title="Code" width="300" height="168" />
+        </a>
+    </div>
+    <ul class="achievementList">
+        <li>Superbowl Champion Winning Coach</li>
+        <li>Over 200 Wins in the NFL</li>
+        <li>Current Kansas City Chiefs Head Coach</li>
+    </ul>-->
+
+        </section>
     </main>
     <footer>
         <p>

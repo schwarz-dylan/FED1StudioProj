@@ -69,7 +69,7 @@
   <ItemGroup>
     <Content Include="Classes.html" />
     <Content Include="Contact.html" />
-    <Content Include="css_options\icons\icons8-double-right-24.png" />
+    <Content Include="images\andrew-khauv-J1pVc3BnsaM-unsplash.jpg" />
     <Content Include="images\Andy Reid pic.jfif" />
     <Content Include="images\arrow pic.jpg" />
     <Content Include="images\defense pic.jfif" />
@@ -82,7 +82,9 @@
     <Content Include="images\favicon_io %283%29\favicon-32x32.png" />
     <Content Include="images\favicon_io %283%29\favicon.ico" />
     <Content Include="images\football background.jpg" />
+    <Content Include="images\jonathan-bottoms-Nm7xzHgCanw-unsplash.jpg" />
     <Content Include="images\left arowhead photo - Copy.png" />
+    <Content Include="images\library-of-congress-nJD0PWqDOBw-unsplash.jpg" />
     <Content Include="images\new arowhead photo.png" />
     <Content Include="images\offensive deffesnsive line drill pic.jfif" />
     <Content Include="images\Pat Mahomes pic.jfif" />
@@ -90,6 +92,7 @@
     <Content Include="images\Tyrann Mathieu pic.jfif" />
     <Content Include="javaScript\bootstrap.js" />
     <Content Include="javaScript\lightbox.js" />
+    <Content Include="Styles\bootstrap.min.css" />
     <Content Include="Styles\custom.css" />
     <Content Include="Styles\font-awesome-4.7.0\font-awesome-4.7.0\css\font-awesome.css" />
     <Content Include="Styles\font-awesome-4.7.0\font-awesome-4.7.0\css\font-awesome.min.css" />
@@ -145,7 +148,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="css_options\icons\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
