@@ -1,5 +1,6 @@
 ﻿
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('bootstrap.min.css');
 
 
 
@@ -76,6 +77,7 @@ nav ul {
 
 nav li:hover {
     background-color: gold;
+    color:red;
 }
 
 nav ul li {
@@ -144,12 +146,12 @@ footer {
 }
 
 main.contactUsMain {
-    margin-top:170px;
+    margin-top:100px;
     margin-bottom:80px;
 }
 
 h3.cardHeader {
-    font-size:1rem;
+    font-size:2rem;
 }
 
 .flexContainer {

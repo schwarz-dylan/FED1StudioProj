@@ -9,21 +9,41 @@
     <!-- Custom Styles -->
     <link href="Styles/custom.css" rel="stylesheet" />
     <link rel="stylesheet" href="Styles/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
-
+    <link href="Styles/bootstrap.min.css" rel="stylesheet" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io (3)/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+    <link href="Styles/bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" />
 
     <style>
         img{
             border-radius: 5px 5px 5px 5px;
+            
                        
         }
+        h1, h2, h3 {
+            color: red;
+            font-weight: bold;
+        }
+
        
-
-
-
+        #oldSchoolPic, #qbPic {
+            float: left;
+            height: 200px;
+            margin-left: 20px;
+        }
+        #localPic {
+            float: right;
+            height: 200px;
+            margin-right: 20px;
+            padding-bottom: 100px;
+        }
+        #leftColumn {
+            background-color: rgba(0, 0, 0, .5);
+        }
+       
+     
     </style>
 
 </head>
@@ -56,39 +76,44 @@
         <section class="mainWrapper" id="leftColumn">
             <br /><br />
 
-
-
-                  <div class="aboutUs">
-                      <h2>About Us:</h2>
+                  <section>
                       <img src="images/library-of-congress-nJD0PWqDOBw-unsplash.jpg" class="indexPic" id="oldSchoolPic" />
-                      <p>
-                          Dylan Schwarz founded the program in 2012, and has been a major part of the KC Metro area teaching youth in all walks of life the game.
+
+                      <h2>About Us:</h2>
+                      <p class="aboutUs">
+                          The KC Football Academy was founded in 2012, and has been a major part of the KC Metro area teaching youth in all walks of life the game. The game is very important to all the coaches here at the KC Football Academy. The game has been played for over 152 years, and because of that our staff has taken personal responsibility to teach your child the right way.
                       </p>
-                  </div>
+                  </section>
+
+
 
             <br /><br />
 
-            <h2>Why Choose Us?</h2>
-
-            <div class="experiance">
-                <img src="images/jonathan-bottoms-Nm7xzHgCanw-unsplash.jpg" class="indexPic" id="qbPic" />
-                <h3>We've Got Experiance:</h3>
-                <p>
-                    Spicy jalapeno bacon ipsum dolor amet capicola irure dolore t-bone short loin burgdoggen veniam. Ham irure tempor swine, ea minim pork belly anim. Dolore tenderloin pig prosciutto, nostrud t-bone short ribs nulla shoulder boudin shank fugiat do jerky qui. Dolore doner chuck in ut boudin id eiusmod. Capicola nulla kevin jerky, enim ut buffalo biltong jowl ut sunt beef. Proident swine ut fugiat chicken voluptate.
-                </p>
-            </div>
+            <h1>Why Choose Us?</h1>
 
             <br /><br />
 
-                  <div class="local">
+                  <section>
+                      <img src="images/jonathan-bottoms-Nm7xzHgCanw-unsplash.jpg" class="indexPic" id="qbPic" />
+                      <h3>We've Got Experiance:</h3>
+                      <p>
+                      <p>At the KC Football Academy we have a very diverse coaching staff that come from all walks of life. Some have experiance at the professional level, either coaching or playing. Some Coaches have experiance coaching college student athletes with focus at getting their players to the next level. And Some coaches have experiance coaching highschool and youth level athletes, whith the knowledge of how to get you or your child to develop the skills that will be vidal to move forward with your football career.</p>
+                      </p>
+                  </section>
+            
+
+            <br /><br />
+
+                  <section>
                       <h3>Were Local:</h3>
                       <p>
                           <img src="images/andrew-khauv-J1pVc3BnsaM-unsplash.jpg" class="indexPic" id="localPic" />
                           Salami porchetta strip steak ex id turkey dolore flank sausage pork loin ut minim rump picanha pork. Quis pork belly chuck reprehenderit excepteur pancetta short ribs eiusmod bacon meatloaf chicken burgdoggen incididunt venison. In aute short ribs elit pig sausage cow pancetta alcatra. Andouille ham eiusmod minim, exercitation shank dolore do rump chislic. Esse ullamco officia drumstick eu, filet mignon in capicola anim shankle sunt.
 
                       </p>
-                  </div>
+                  </section>
             
+
 
             <br /><br />
 
@@ -101,6 +126,8 @@
         &copy;Copyright 2020 Dylan Schwarz
     </footer>
 
-
+    <script src="javaScript/bootstrap.js"></script>
+    <script src="javaScript/lightbox.js"></script>
+    <script src="Styles/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 </body>
 </html>
