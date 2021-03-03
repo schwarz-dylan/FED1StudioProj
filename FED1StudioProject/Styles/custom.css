@@ -28,9 +28,13 @@
     font-size: 30px;
     font-family: 'Russo One', bold;
 }
-ul li {
+#asideDep ul li {
     font-family: 'Russo One', monospace;
+    font-size: x-large;
     text-align: center;
+    padding:10%;
+    padding-left: 23%;
+    /*padding-right:35%;*/
     
     
 }
@@ -41,6 +45,12 @@ h3 {
 section p {
     text-align: center;
     font-family: 'Russo One', monospace;
+}
+#middle{
+    text-align:left;
+}
+#bottom{
+    text-align:right;
 }
 
 aside p {
@@ -111,6 +121,7 @@ header p {
 
 h1, h2, h3, footer {
     text-align: center;
+
 }
 
 .galleryItem, #galleryItem {
@@ -144,6 +155,7 @@ footer {
     text-align: center;
     width: 100%;
 }
+
 
 main.contactUsMain {
     margin-top:100px;
@@ -268,7 +280,7 @@ h3.cardHeader {
 
 
 article {
-    background-color: rgba(0, 0, 0, .7);
+    /*background-color: rgba(0, 0, 0, .7);*/
     
 }
 

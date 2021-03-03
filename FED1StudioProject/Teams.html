@@ -42,12 +42,15 @@
         /* Add rounded corners to the top left and the top right corner of the image */
         img {
             border-radius: 5px 5px 0 0;
+            height:200px;
+            width: 350px;
         }
 
         aside {
+            text-align: center;
             height: 100%;
             float: right;
-            background-color: rgba(0, 0, 0, .5);
+            /*background-color: rgba(0, 0, 0, .5);*/
         }
 
         #asideHeader {
@@ -56,6 +59,7 @@
         }
 
         aside ul li a {
+            text-align:center;
             color: gold;
         }
 
@@ -63,12 +67,33 @@
             color: gold;
             text-decoration: underline;
             background-color: red;
-        }
-        #andyReid, #patrickMahomes {
-            float: left;
             
+        }
+        #bioPic {
+            float: left;
+            border: 2px double red;
             margin-right: 20px;
         }
+        
+        
+        #bio{
+            margin-bottom: 5em;
+        }
+        main{
+            margin-bottom: 6em;
+        }
+       #nflStaffMembers{
+           width: 80%;
+           border-right: 5px solid red;
+           padding-right: 15px;
+       }
+        main {
+            background-color: rgba(0, 0, 0, .5);
+        }
+        h2{
+            margin-left:34%;
+        }
+        
 
     </style>
 
@@ -99,21 +124,24 @@
 
         <aside id="htmlRightColumn">
             <h2>Departments</h2>
-            <ul class="asideList">
-                <li id="department">
-                    <a href="#nflAmbassadors">NFL Ambassadors</a>
-                </li>
-                <li id="department">
-                    <a href="#offense">Offensive Coordinators</a>
-                </li>
-                <li id="department">
-                    <a href="#defense">Defensive Coordinators</a>
-                </li>
-                <li id="department">
-                    <a href="#specialTeams">Special Teams Coordinators</a>
-                </li>
+            <div id="asideDep">
+                <ul class="asideList">
+                    <li id="department">
+                        <a href="#nflAmbassadors">NFL Ambassadors</a>
+                    </li>
+                    
+                    <li id="department">
+                        <a href="#oCoordinators">Offensive Coordinators</a>
+                    </li>
+                    <li id="department">
+                        <a href="#dCoordinators">Defensive Coordinators</a>
+                    </li>
+                    <li id="department">
+                        <a href="#sCoordinators">Special Teams Coordinators</a>
+                    </li>
 
-            </ul>
+                </ul>
+            </div>
 
 
         </aside>
@@ -122,15 +150,15 @@
         <section class="mainWrapper" id="leftColumn">
             
             <article id="nflStaffMembers">
-                
 
-                <h2 id="nflAmbassadors">NFL Ambassadors</h2>
-                <br />
-                <br />
-                <br />
-                <section>
 
-                    <img src="images/Andy Reid pic.jfif" alt="Andy Reid" id="andyReid" />
+                <h2 id="nflAmbassadors"><span id="headerOverlayleft"></span>NFL Ambassadors<span id="headerOverlayright"></span></h2>
+                <br />
+                <br />
+                <br />
+                <section id="bio">
+
+                    <img src="images/Andy Reid pic.jfif" alt="Andy Reid" id="bioPic" />
 
 
                     <h3>Andy Reid</h3>
@@ -141,9 +169,9 @@
                 <br />
                 <br />
                 <br />
-                <section>
+                <section id="bio">
 
-                    <img src="images/Pat Mahomes pic.jfif" alt="Patrick Mahomes" id="patrickMahomes" />
+                    <img src="images/Pat Mahomes pic.jfif" alt="Patrick Mahomes" id="bioPic" />
 
 
                     <h3>Patrick Mahomes</h3>
@@ -151,48 +179,203 @@
                         Patrick Lavon Mahomes II is an American football quarterback for the Kansas City Chiefs of the National Football League. He initially played college football and college baseball at Texas Tech University. By the young age of 25 he has already won a league MVP, a SuperBowl, and a SuperBowl MVP all with the Kansas City Chiefs.
                     </p>
                 </section>
+                <br />
+                <br />
+                <br />
+                <section id="bio">
+
+                    <img src="images/Tyrann Mathieu pic.jfif" alt="Tyrann Mathieu" id="bioPic" />
 
 
+                    <h3>Tyrann Mathieu</h3>
+                    <p>
+                        Tyrann Devine Mathieu, nicknamed "the Honey Badger" and "the Landlord", is an American football safety for the Kansas City Chiefs of the National Football League. He played college football for LSU. In college he developed a reputation for causing turnovers, setting a SEC record with 11 career forced fumbles and earning the nickname "Honey Badger." Since 2019 Tyrann has been a Kansas City Chief as well as a NFL Ambassador for the KC Football Academy.
+                    </p>
+                </section>
+
+
+                <br />
+                <br />
+                <br />
+
+                <h2 id="oCoordinators"><span id="headerOverlayleft"></span>Offensive Coordinators<span id="headerOverlayright"></span></h2>
+
+
+                <br />
+                <br />
+                <br />
+                <section id="bio">
+
+                    <img src="images/coach 1.jpeg" alt="Coach Joe" id="bioPic" />
+
+
+                    <h3>Coach Joe Shmow</h3>
+                    <p>
+                        Joe Shmow is a football coach who has been around football for over 20 years. He is passionate about helping youth in Kansas City learn the game that he loves.
+                    </p>
+                </section>
+
+
+                <br />
+                <br />
+                <br />
+
+
+                <section id="bio">
+
+                    <img src="images/coach 2.jpg" alt="Coach John" id="bioPic" />
+
+
+                    <h3>Coach John Taylor</h3>
+                    <p>
+                        John Taylor is a football coach and has been one for over 40 years. Having success on multiple teams in multiple different situations. Coach Taylor has experiance working with any type of player.
+                    </p>
+                </section>
+
+                <br />
+                <br />
+                <br />
+
+
+                <section id="bio">
+
+                    <img src="images/coach 3.jpg" alt="Coach Lonny Wilson" id="bioPic" />
+
+
+                    <h3>Coach Lonny Wilson</h3>
+                    <p>
+                        Lonny Wilson has been coaching youth football players for over 10 years. He also has experiance coaching on the collegiate level where he led the Albertson Bear Hawks to 5 MKSAA titles.
+                    </p>
+                </section>
+
+                <br />
+                <br />
+                <br />
+
+                <h2 id="dCoordinators"><span id="headerOverlayleft"></span>Defensive Coordinators<span id="headerOverlayright"></span></h2>
+
+
+                <br />
+                <br />
+                <br />
+                <section id="bio">
+
+                    <img src="images/coach4.jpeg" alt="Coach John" id="bioPic" />
+
+
+
+                    <h3>Coach John Johnson</h3>
+                    <p>
+                        John Johnson is a Kansas City Native who has donated his time to the KC Football Academy for quite some time now. He has played on both the collegiate and professional level. He has been coaching youth football for over 4 years now.
+                    </p>
+                </section>
+
+
+                <br />
+                <br />
+                <br />
+
+
+                <section id="bio">
+
+                    <img src="images/coach5.jpeg" alt="Coach Wilks" id="bioPic" />
+
+
+
+                    <h3>Coach Mack Wilks</h3>
+                    <p>
+                        Coach Mack Wilks has maybe the most coaching experiance on staff here at the KC Football Academy. He has been coaching on multiple levels for over 42 years. With all the experiance that he has, there should be little concern for your childs growth as both a football player and a young man/women.
+                    </p>
+                </section>
+
+                <br />
+                <br />
+                <br />
+
+
+                <section id="bio">
+
+                    <img src="images/coach6.jpg" alt="Coach Erick Franks" id="bioPic" />
+
+
+
+                    <h3>Coach Erick Franks</h3>
+                    <p>
+                       Erick Franks has been a football coach here at the KC Football Academy since its inception. Specializing with the defensive side of the ball, he has coached players that have made it to the professional ranks and have plenty of thanks to give to Coach Franks. 
+                    </p>
+                </section>
+
+                <br />
+                <br />
+                <br />
+
+
+                <h2 id="sCoordinators"><span id="headerOverlayleft"></span>Special Teams Coordinators<span id="headerOverlayright"></span></h2>
+
+
+                <br />
+                <br />
+                <br />
+                <section id="bio">
+
+                    <img src="images/coach7.jpg" alt="Coach Kyle" id="bioPic"/>
+                    
+
+
+
+                    <h3>Coach Kyle Williamson</h3>
+                    <p>
+                        Coach Kyle Williamson is our newest member on the KC Football Academy staff but dont let that fool you. He is a subject matter expert on Special Teams scenarios. If your child has interest in going to college to be a kicker, punter, longsnapper or any other special teams position they are in good hands.
+                    </p>
+                </section>
+
+
+                <br />
+                <br />
+                <br />
+
+
+                <section id="bio">
+
+                    <img src="images/coach8.jpg" alt="Coach Nick" id="bioPic" />
+                    
+
+
+
+                    <h3>Coach Nick Jackson</h3>
+                    <p>
+                        Coach Nick Jackson is another coach who has been on staff since the KC Football Academy's inception. With over 10 years of coaching experiance its safe to say that he knows what he is doing.
+                    </p>
+                </section>
+
+                <br />
+                <br />
+                <br />
+
+
+                <section id="bio">
+
+                    <img src="images/coach9.jpg" alt="Coach Benji Reddick" id="bioPic" />
+                    
+
+
+
+                    <h3>Coach Benji Reddick</h3>
+                    <p>
+                        Coach Benji Reddick has been coaching High School Football for about 35 years and isnt done yet. There is nothing more that Coach Reddick loves, than getting his kids to the next level. 
+                    </p>
+                </section>
+
+                <br />
+                <br />
+                <br />
 
 
             </article>
 
 
 
-            <!--<h3>Patrick Mahomes | NFL Super Star</h3>
-            <div class="galleryItem" id="galleryItem">
-                <a href="../images/Pat Mahomes pic.jfif" target="_blank">
-                    <img src="../images/Pat Mahomes pic.jfif" alt="Picture of Patrick Mahomes" title="Code" width="300" height="168" />
-                </a>
-            </div>
-            <ul class="achievementList">
-                <li>Kansas City Chiefs QB from 2017-Present</li>
-                <li>NFL MVP in 2018 and 2020</li>
-                <li>Superbowl MVP/Champion 2020</li>
-            </ul>-->
-            <!--<h3>Tyrann Mathieu | NFL Super Star</h3>
-            <div class="galleryItem" id="galleryItem">
-                <a href="images/Tyrann Mathieu pic.jfif" target="_blank">
-                    <img src="../images/Tyrann Mathieu pic.jfif" alt="Picture of Tyrann Mathieu" title="Code" width="300" height="168" />
-                </a>
-            </div>
-            <ul class="achievementList">
-                <li>Superbowl Champion</li>
-                <li>4X NFL Pro Bowler</li>
-                <li>2011 Heisman Trophy Finalist</li>
-                <li>NFL's 2010's All Decade Team</li>
-            </ul>-->
-            <!--<h3>Andy Reid | NFL Head Coach for over 20 years</h3>
-            <div class="galleryItem" id="galleryItem">
-                    <a href="images/Andy Reid pic.jfif" target="_blank">
-                    <img src="../images/Andy Reid pic.jfif" alt="Picture of Andy Reid" title="Code" width="300" height="168" />
-                </a>
-            </div>
-            <ul class="achievementList">
-                <li>Superbowl Champion Winning Coach</li>
-                <li>Over 200 Wins in the NFL</li>
-                <li>Current Kansas City Chiefs Head Coach</li>
-            </ul>-->
+            
 
         </section>
     </main>

@@ -75,8 +75,15 @@
     <Content Include="images\coach 1.jpeg" />
     <Content Include="images\coach 2.jpg" />
     <Content Include="images\coach 3.jpg" />
-    <Content Include="images\defense pic.jfif" />
-    <Content Include="images\Ellite 11 pic.jfif" />
+    <Content Include="images\coach4.jpeg" />
+    <Content Include="images\coach5.jpeg" />
+    <Content Include="images\coach6.jpg" />
+    <Content Include="images\coach7.jpg" />
+    <Content Include="images\coach8.jpg" />
+    <Content Include="images\coach9.jpg" />
+    <Content Include="images\defense pic.jpg" />
+    <Content Include="images\dylan.jpg" />
+    <Content Include="images\Ellite 11 pic.jpg" />
     <Content Include="images\favicon icon.png" />
     <Content Include="images\favicon_io %283%29\android-chrome-192x192.png" />
     <Content Include="images\favicon_io %283%29\android-chrome-512x512.png" />
