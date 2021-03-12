@@ -48,7 +48,10 @@ section p {
 }
 #middle{
     text-align:left;
+    margin-left: 10%;
+    
 }
+
 #bottom{
     text-align:right;
 }
@@ -61,13 +64,16 @@ aside p {
 nav a {
     font-weight: bold;
     color: red;
-
+    
 }
 
-
+a.active{
+    background-color:gold;
+}
 
 nav {
-    margin-top:24px;
+    margin-top: 24px;
+    
 }
 
 article p {
@@ -86,6 +92,7 @@ nav ul {
     padding: 0;
     border-top: 2px darkgray;
     border-bottom: 2px darkgray;
+    
 }
 
 nav li:hover {
@@ -96,11 +103,14 @@ nav li:hover {
 nav ul li {
     display: inline-block;
     list-style: none;
+
+    
 }
 
     nav ul li a {
         padding: .4em 1em;
         display: block;
+        position: center;
     }
 body {
     background: url('/images/football background.jpg') no-repeat center center fixed;
@@ -134,16 +144,15 @@ h1, h2, h3, footer {
 table, tr, th, td {
     border: 1px solid black;
     border-collapse: collapse;
-    border-radius: 10px 10px 10px 10px;
-   
+    /*border-radius: 10px 10px 10px 10px;*/
 }
 table {
     /*width: 100%;*/
     margin:auto;
     height:15rem;
-    color:red;
+    color:black;
     margin-top:170px;
-    background-color: gold;
+    background-color: white;
     font-family:'Russo One', monospace;
     
 }
@@ -288,7 +297,8 @@ article {
 }
 
 main p {
-    color: gold;
+    color: lightgray;
+    font-size: 18px;
 }
 
 .card #teamCard {

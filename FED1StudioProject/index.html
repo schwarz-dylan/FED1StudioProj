@@ -33,7 +33,8 @@
        }
        .dylanPic{
            height:180px;
-           width: 200px;
+           width: 180px;
+           border-radius: 100px;
        }
 
         #oldSchoolPic, #qbPic {
@@ -44,12 +45,17 @@
         #localPic {
             float: right;
             height:300px;
-            margin-right: 20px;
+            margin-right: -70px;
             padding-bottom: 100px;
             
         }
         #leftColumn {
-            background-color: rgba(0, 0, 0, .5);
+            background-color: rgba(0, 0, 0, .7);
+            color: white;
+        }
+        .aboutUs{
+            padding-top:25px;
+            font-size:18px;
         }
        
      
@@ -66,7 +72,7 @@
     <nav>
         <ul>
             <li>
-                <a href="/index.html">Home</a>
+                <a href="/index.html" class="active">Home</a>
             </li>
             <li>
                 <a href="/Classes.html">Classes</a>
@@ -85,14 +91,23 @@
         <section class="mainWrapper" id="leftColumn">
             <br /><br />
 
-                  <section>
-                      <img src="images/dylan.jpg" class="dylanPic" id="oldSchoolPic"/>
-                      
+                  <section class="container">
+                      <div class="row">
+                          <div class="col-md-12">
+                              <h2>About Us:</h2>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-md-3"><img src="images/dylan.jpg" class="dylanPic" id="oldSchoolPic" /></div>
 
-                      <h2>About Us:</h2>
-                      <p class="aboutUs">
-                          The KC Football Academy was founded in 2012 by Dylan Schwarz. Dylan has been a major part of the KC Metro area teaching youth in all walks of life the game. The game is very important to all the coaches here at the KC Football Academy. The game has been played for over 152 years, and because of that our staff has taken personal responsibility to teach your child the right way.
-                      </p>
+
+                          <div class="col-md-9">
+                              
+                              <p class="aboutUs">
+                                  The KC Football Academy was founded in 2012 by Dylan Schwarz. Dylan has been a major part of the KC Metro area teaching youth in all walks of life the game. The game is very important to all the coaches here at the KC Football Academy. The game has been played for over 152 years, and because of that our staff has taken personal responsibility to teach your child the right way.
+                              </p>
+                          </div>
+                      </div>
                   </section>
 
 
@@ -103,24 +118,42 @@
 
             <br /><br />
 
-                  <section>
-                      <img src="images/jonathan-bottoms-Nm7xzHgCanw-unsplash.jpg" class="indexPic" id="qbPic" />
-                      <h3>We've Got Experiance:</h3>
-                      
-                      <p id="middle">At the KC Football Academy we have a very diverse coaching staff that come from all walks of life. Some have experiance at the professional level, either coaching or playing. Some Coaches have experiance coaching college student athletes with focus at getting their players to the next level. And Some coaches have experiance coaching highschool and youth level athletes, whith the knowledge of how to get you or your child to develop the skills that will be vidal to move forward with your football career.</p>
-                      
+                  <section class="container">
+                      <div class="row">
+                          <div class="col-md-12">
+                              <h3>We've Got Experiance:</h3>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-md-3"><img src="images/jonathan-bottoms-Nm7xzHgCanw-unsplash.jpg" class="indexPic" id="qbPic" /></div>
+
+
+                          <div class="col-md-9"> <p id="middle">At the KC Football Academy we have a very diverse coaching staff that come from all walks of life. Some have experiance at the professional level, either coaching or playing. Some Coaches have experiance coaching college student athletes with focus at getting their players to the next level. And Some coaches have experiance coaching highschool and youth level athletes, whith the knowledge of how to get you or your child to develop the skills that will be vidal to move forward with your football career.</p></div>
+                      </div>
+
                   </section>
             
 
             <br /><br />
 
-                  <section>
-                      <h3>Were Local:</h3>
-                      <p id="bottom">
-                          <img src="images/andrew-khauv-J1pVc3BnsaM-unsplash.jpg" class="indexPic" id="localPic" />
-                          Located in the heart of Kansas City our facility is in an area where you know you or your child will feel comfortable. All of our staff members are members of the Kansas City Metro Area. If you are interested in signing up for our shuttle program, please reach out to us at email.com. The shuttle program is a program designed to drop you kids off at home by one of our very own staff members if you are in a pinch. 
+                  <section class="container">
+                      <div class="row">
+                          <div class="col-md-12">
+                              <h3>Were Local:</h3>
+                          </div>
+                      </div>
 
-                      </p>
+                      <div class="row">
+                          <div class="col-md-9">
+                              <p id="bottom">
+
+                                  Located in the heart of Kansas City our facility is in an area where you know you or your child will feel comfortable. All of our staff members are members of the Kansas City Metro Area. If you are interested in signing up for our shuttle program, please reach out to us at email.com. The shuttle program is a program designed to drop you kids off at home by one of our very own staff members if you are in a pinch.
+
+                              </p>
+                          </div>
+
+                          <div class="col-md-3"><img src="images/andrew-khauv-J1pVc3BnsaM-unsplash.jpg" class="indexPic" id="localPic" /></div>
+                      </div>
                   </section>
             
 

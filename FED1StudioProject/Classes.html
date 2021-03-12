@@ -71,10 +71,11 @@
             
             background-color: rgba(0, 0, 0, .7);
             box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+            min-height:445px;
         }
         
 
-            .card:hover {
+            .thumbnail:hover {
                 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
             }
 
@@ -114,7 +115,13 @@
         #defense, #strength{
             margin-left: 10%;
         }
-
+        .tableStyle tr:nth-child(2n-2){
+            background-color:rgba(255, 0, 0, 0.5);
+            color:black;
+        }
+        main {
+            background-color: rgba(0, 0, 0, .7);
+        }
       
         
         
@@ -134,7 +141,7 @@
                 <a href="/index.html">Home</a>
             </li>
             <li>
-                <a href="/Classes.html">Classes</a>
+                <a href="/Classes.html" class="active" >Classes</a>
             </li>
             <li>
                 <a href="/Teams.html">Our Team</a>
@@ -175,7 +182,7 @@
                     <div class="thumbnail">
                         <img src="images/offensive deffesnsive line drill pic.jfif" alt="Offensive and Defensive Line Training" class="img-responsive thumb">
                         <div class="caption">
-                            <h3>Offensive and Defensive Line</h3>
+                            <h3>Offensive/Defensive Line</h3>
                             <p>Dylan Schwarz is a former Semi-Professional QB and has experiance playing at the WR position as well. He is the coach for these position groups. Please see his contact info on the "Contact Us" page.</p>
                             <p><a href="#oLineAndDLineTable" class="btn btn-primary" role="button">Click here to see Class Schedule</a></p>
                         </div>
@@ -233,7 +240,7 @@
         </div>
     </div>
 
-    <table id="qbRbWrTable">
+    <table id="qbRbWrTable" class="tableStyle">
         <thead>
             <tr>
                 <th colspan="6">QB's, RB's, and WR's Class Schedule:</th>
@@ -269,7 +276,7 @@
         </tbody>
     </table>
 
-    <table id="oLineAndDLineTable">
+    <table id="oLineAndDLineTable" class="tableStyle">
         <thead>
             <tr>
                 <th colspan="6">Offensive and Defensive Line Class Schedule:</th>
@@ -306,7 +313,7 @@
     </table>
 
 
-    <table id="defensiveSkilledPositionsTable">
+    <table id="defensiveSkilledPositionsTable" class="tableStyle">
         <thead>
             <tr>
                 <th colspan="6">Defensive Skilled Positions Class Schedule:</th>
@@ -342,7 +349,7 @@
         </tbody>
     </table>
 
-    <table id="strengthTrainingTable">
+    <table id="strengthTrainingTable" class="tableStyle">
         <thead>
             <tr>
                 <th colspan="6">Strength and Conditioning Class Schedule:</th>
