@@ -111,11 +111,15 @@
     <Content Include="Styles\bootstrap-3.3.7-dist\js\bootstrap.min.js" />
     <Content Include="Styles\bootstrap-3.3.7-dist\js\npm.js" />
     <Content Include="Styles\bootstrap.min.css" />
+    <Content Include="Styles\ClassesStyles.css" />
+    <Content Include="Styles\ContactStyles.css" />
     <Content Include="Styles\custom.css" />
     <Content Include="Styles\font-awesome-4.7.0\font-awesome-4.7.0\css\font-awesome.css" />
     <Content Include="Styles\font-awesome-4.7.0\font-awesome-4.7.0\css\font-awesome.min.css" />
     <Content Include="Styles\font-awesome-4.7.0\font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
     <Content Include="Styles\font-awesome-4.7.0\font-awesome-4.7.0\HELP-US-OUT.txt" />
+    <Content Include="Styles\HomeStyles.css" />
+    <Content Include="Styles\TeamsStyles.css" />
     <Content Include="Teams.html" />
     <Content Include="index.html" />
     <Content Include="Web.config" />

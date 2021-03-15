@@ -1,0 +1,114 @@
+﻿
+
+h1 {
+    color: red;
+    font-size: 24px;
+}
+
+.headingStyle {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#asideHeader {
+    background-color: darkblue;
+    color: gold;
+}
+
+h1 {
+    color: red;
+    font-size: 24px;
+}
+
+.headingStyle {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#asideHeader {
+    background-color: red;
+    color: gold;
+}
+
+.row {
+    align-items: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    width: 20%;
+    min-height: 8em;
+    height: 25em;
+}
+
+.thumbnail {
+    background-color: rgba(0, 0, 0, .7);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+    min-height: 445px;
+}
+
+
+    .thumbnail:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
+    }
+
+.container {
+    padding: 2px 8px;
+}
+
+div.card p {
+    min-height: 8em;
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+.bestText {
+    color: gold;
+}
+
+.positionGroupHeader {
+    font-size: 2.5em;
+}
+
+button {
+    color: red;
+}
+
+table {
+    border-bottom-style: ridge;
+    border: 5px solid red;
+    border-collapse: collapse;
+}
+
+#qb, #lineman {
+    margin-left: 10%;
+}
+
+#defense, #strength {
+    margin-left: 10%;
+}
+
+.tableStyle tr:nth-child(2n-2) {
+    background-color: rgba(255, 0, 0, 0.5);
+    color: black;
+}
+
+main {
+    background-color: rgba(0, 0, 0, .7);
+}
+
+
+
+
+

@@ -1,0 +1,80 @@
+﻿
+h1 {
+    color: red;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+#nflAmbassadors {
+    color: red;
+}
+
+.headingStyle {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.container {
+    padding: 2px 8px;
+    width: 100%;
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+    border-radius: 5px 5px 0 0;
+    height: 200px;
+    width: 350px;
+}
+
+aside {
+    text-align: center;
+    height: 100%;
+    float: right;
+    /*background-color: rgba(0, 0, 0, .5);*/
+}
+
+#asideHeader {
+    background-color: red;
+    color: gold;
+}
+
+aside ul li a {
+    text-align: center;
+    color: gold;
+}
+
+aside a:hover, a:active, a:focus {
+    color: gold;
+    text-decoration: underline;
+    background-color: red;
+}
+
+#bioPic {
+    float: left;
+    border: 2px double red;
+    margin-right: 20px;
+}
+
+
+#bio {
+    margin-bottom: 5em;
+}
+
+main {
+    margin-bottom: 6em;
+}
+
+#nflStaffMembers {
+    width: 80%;
+    border-right: 5px solid red;
+    padding-right: 15px;
+}
+
+main {
+    background-color: rgba(0, 0, 0, .7);
+}
+
+h2 {
+    margin-left: 34%;
+}
